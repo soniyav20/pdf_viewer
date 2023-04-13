@@ -24,12 +24,6 @@ class _HomeState extends State<Home> {
     _initPdf();
   }
 
-  /*git init
-  git add .
-  git commit -m "first commit"
-  git branch -M main
-  git remote add origin https://github.com/soniyav20/pdf_viewer.git
-  git push -u origin main*/
   _initPdf() async {
     setState(() {
       _loading = true;
